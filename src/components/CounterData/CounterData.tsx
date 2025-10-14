@@ -1,5 +1,6 @@
 "use client"
-import CountUp from "react-countup";
+// Asumiendo que el nuevo archivo está en 'components'
+import { NativeCountUp } from '../NativeCountUp';
 import { MotionTransition } from "../MotionTransition";
 import { dataCounter } from "./CounterData.data";
 
@@ -10,7 +11,7 @@ export function CounterData() {
                 {dataCounter.map(({ id, startNumber, endNumber, text }) => (
                     <div key={id} className="py-5 text-2xl text-center md:text-left">
                         +
-                        <CountUp start={startNumber} end={endNumber} duration={1.5} enableScrollSpy />
+                        <NativeCountUp endNumber={endNumber} duration={1.5} enableScrollSpy />
                         {" "}
                         <span className="degradedBlue bg-blueLight">{text}</span>
                     </div>

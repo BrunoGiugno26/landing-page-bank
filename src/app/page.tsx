@@ -1,3 +1,4 @@
+"use client"
 import { BestBusiness } from "@/components/BestBusiness";
 import { ChooseYourCards } from "@/components/ChooseYourCards";
 import { ControlBilling } from "@/components/ControlBilling";
