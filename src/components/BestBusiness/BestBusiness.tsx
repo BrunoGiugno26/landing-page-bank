@@ -14,13 +14,13 @@ export function BestBusiness() {
                 <div>
                     <Reveal>
                         <h2 className="text-5xl font-semibold">
-                            <span className="block degradedBlue bg-blueLight">Tú haces el negocio</span>
+                            <span className="block degradedBlue bg-blueLight">Vos haces el negocio</span>
                             nosotros manejamos <br />
-                            el dinero
+                            tu dinero
                         </h2>
                     </Reveal>
                     <Reveal>
-                        <p className="max-w-md mt-10">Con la tarjeta de crédito adecuada, puede mejorar su vida
+                        <p className="max-w-md mt-10">Con la tarjeta de crédito adecuada, puede mejorar tu vida
                             financiera generando crédito, obteniendo recompensas y
                             ahorrando dinero. Pero con cientos de tarjetas de crédito en
                             el mercado.</p>
