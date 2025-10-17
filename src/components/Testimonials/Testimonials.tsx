@@ -21,7 +21,6 @@ export function Testimonials() {
                     </div>
                 </Reveal>
             </div>
-
             <Slide />
         </div>
     )

@@ -9,7 +9,7 @@ export function CtaDark() {
                 <div className="grid items-center md:grid-cols-2">
                     <div className="my-8">
                         <Reveal>
-                            <h3 className="text-3xl font-bold">Ven a probar nuestros servicios</h3>
+                            <h3 className="text-3xl font-bold">Ven a probar nuestros servicios</h3><br />
                         </Reveal>
                         <Reveal>
                             <p>Todo lo que necesitas para aceptar pagos con tarjeta y haga crecer su negocio en cualquier parte del planeta</p>
